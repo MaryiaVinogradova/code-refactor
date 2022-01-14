@@ -1,15 +1,17 @@
+/*Apply the color to universal and remove from other classes.*/
+/* Universal selector, clearing padding and margins */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     color: #ffffff;
 }
-/*Apply the color for body and remove from other classes.*/
+
 body {
     background-color: #d9dcd6;
     
 }
-
+/* Header format */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -47,6 +49,7 @@ header nav {
     font-size: 20px;
     
 }
+/* Class text common for all text blocks */
 .text{
     margin-top: 20px;
     margin-bottom: 0px;
@@ -76,13 +79,12 @@ header nav ul li {
     margin-bottom: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* Remove underline from links*/
+
 a{
-    
     text-decoration: none;
 }
 
-
+/* Main content */
 section {
     font-size: 16px;
     padding-bottom: 20px;
@@ -104,7 +106,7 @@ section {
     margin-left: 20px;
     position: absolute;
 }
-
+/* Aside context */
 .benefits {
     margin-top: 20px;
     margin-right: 20px;
@@ -141,7 +143,7 @@ section {
     font-size: 36px;
 }
 
-
+/* Footer format */
 .footer {
     padding: 30px;
     clear: both;
