@@ -15,7 +15,7 @@ Targed was to symplify CSS file and HTML. Make it structured to follow semantic 
 ## Screenshot
  I used inpect to find which setting doesn't work for each element. That helps a lot to identify the same setting for elements
 
-![screenshot](./assets/Screen Shot 2022-01-13 at 10.27.12 PM.png)
+![screenshot](./assets/images/ScreenShot.png)
 
 ## link to deployed application
  [title](https://maryiavinogradova.github.io/code-refactor/)
